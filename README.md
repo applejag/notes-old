@@ -1,7 +1,3 @@
----
-unlisted: true 
----
-
 # My zettelkasten
 
 Zettelkasten is a methodology for writing notebooks in a permanent fashion.
