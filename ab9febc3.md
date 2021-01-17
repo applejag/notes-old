@@ -4,7 +4,7 @@ tags:
   - programming/optimize memory usage
   - programming/quality of life
   - programming/working with strings
-  - lang/c#
+  - prog lang/advanced c# techniques
 ---
 
 # Interchanging ReadOnlySpan&lt;T&gt;, string, and char[] in C#
