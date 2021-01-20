@@ -3,6 +3,9 @@
 This is my personal wiki that I put an empasis on trying to follow the
 [[[8582b442]]] methodology.
 
+The source for this zettelkasten is stored as open source on GitHub at
+<https://github.com/jilleJr/wiki>
+
 ## Find me on the internet
 
 ### ActivityPub/Fediverse
