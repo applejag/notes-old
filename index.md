@@ -6,6 +6,10 @@ This is my personal wiki that I put an empasis on trying to follow the
 The source for this zettelkasten is stored as open source on GitHub at
 <https://github.com/jilleJr/wiki>
 
+## Useful when writing zettels
+
+- APA citation generation: <https://www.scribbr.com/apa-citation-generator/>
+
 ## Find me on the internet
 
 ### ActivityPub/Fediverse
