@@ -4,6 +4,14 @@ set -euo pipefail
 ZETTEL="${1:?Zettel file must be provided}"
 NEW_NAME="${2:?Zettel new name must be provided}"
 
+if [[ "$ZETTEL" == *.md ]]; then
+    ZETTEL="${ZETTEL%.md}"
+fi
+
+if [[ "$NEW_NAME" == *.md ]]; then
+    NEW_NAME="${NEW_NAME%.md}"
+fi
+
 if [[ ! -f "$ZETTEL.md" ]]; then
     echo "File '$ZETTEL.md' does not exist." >&2
     exit 1
