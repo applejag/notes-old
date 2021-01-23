@@ -7,7 +7,7 @@ tags:
   - programming/what does a programmer do
 ---
 
-# Programming requires maths
+# Programming requires math
 
 A common question that arises from newcomes to the software development field
 is:
@@ -16,10 +16,10 @@ is:
 
 The answer most commonly given is the spontaneous one: *"No."*
 
-But the thing is: yes, you need to be good at maths; but not the type of math
+But the thing is: yes, you need to be good at math; but not the type of math
 you maybe were expecting.
 
-## Misconception about maths
+## Misconception about math
 
 If you're comparing a software engineer with a mechanical engineer, at first
 glance it does look like the mechanical engineer does much more "math" than the
