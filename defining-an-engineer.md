@@ -18,7 +18,7 @@ classify a person as an engineer, and that comes from inspecting how they work.
 What counts as engineering is pretty straight forward like that.
 
 What counts as an engineer, that is mostly up to other engineers to declare,
-but for example when considering an [[[a97fa28b]]], an
+but for example when considering an [[[electrician-vs-electrical-engineer]]], an
 engineer is more of a role than a title, and the "senior"-ness of the persons
 procedures and knowledge.
 
