@@ -44,7 +44,7 @@ the observer thinks it is. I.e., it's highly subjective.
 
 Math comes in all shapes and sizes though. And it's true, engineers does use
 math in their work. You have to be careful though when you're defining "math",
-as math is a huge subject, as even [[[a0ced84a]]].
+as math is a huge subject, as even [[[programming-requires-math]]].
 
 ## References
 
