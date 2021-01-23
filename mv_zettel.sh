@@ -15,4 +15,4 @@ if [[ -f "$NEW_NAME.md" ]]; then
 fi
 
 mv "$ZETTEL.md" "$NEW_NAME.md"
-sed -i "s/$ZETTEL/$NEW_NAME/g" ./*.md
+sed -i "s/\[\[$ZETTEL\]\]/[[$NEW_NAME]]/g" ./*.md
