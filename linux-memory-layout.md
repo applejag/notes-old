@@ -16,7 +16,7 @@ Your RAM in Linux is built upon the following abstractions:
     - Each zone contains a set number of [[[linux-memory-pages]]], usually at the size of 4096
       bytes.
 
-      - Each page can have a [[[fbeba87e]]], ex: anonymous, file-backed,
+      - Each page can have a [[[linux-memory-page-mapping]]], ex: anonymous, file-backed,
         device-backed.
     
 The Linux kernel can alter how file-backed and anonymous mapped pages are stored

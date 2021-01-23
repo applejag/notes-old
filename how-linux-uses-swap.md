@@ -11,7 +11,7 @@ tags:
 In Linux, you can dedicate a partition of your disk for swap or let swap be
 stored in a mere file on your system.
 
-There are two [[fbeba87e]] that take use of swap. The anonymous memory
+There are two [[linux-memory-page-mapping]] that take use of swap. The anonymous memory
 and file-backed memory.
 
 ## When file-backed memory is swapped

@@ -13,7 +13,7 @@ set of bytes.
 
 A process can request (allocate) any number of pages, but not any size other than
 a multiple of the page size. Upon request of the memory page it obtains its
-[[[fbeba87e]]] type, based on how it's requested.
+[[[linux-memory-page-mapping]]] type, based on how it's requested.
 
 The page size is determined on startup of your machine and cannot be changed
 while memory is still in use. I.e. you need to reboot to change it. Most often

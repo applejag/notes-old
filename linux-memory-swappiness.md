@@ -25,7 +25,7 @@ in the (inclusive) range of 0 to 100.
 ## How the setting affects swap
 
 Your memory on your Linux machine is divided into different mappings. (Read more
-about [[fbeba87e]]). Your anonymous and file-backed memory both can
+about [[linux-memory-page-mapping]]). Your anonymous and file-backed memory both can
 be cached to an effect on your disk and in your RAM, respectively.
 
 Inside the Linux kernels source code, you will find the following:
