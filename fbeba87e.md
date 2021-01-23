@@ -99,7 +99,7 @@ your Linux kernel deals with running out of memory.
 
 File-backed and anonymous memory are the only memory mappings that are affected
 by swap. Read more about [[[4b91deb2]]] and how to control it via the
-[[[1ae28f12]]] setting
+[[[linux-memory-swappiness]]] setting
 
 ## References
 
