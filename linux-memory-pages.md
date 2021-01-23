@@ -7,7 +7,7 @@ tags:
 
 # Pages
 
-Continuing on from [[4e7771c9]], the next segment abstraction of RAM in
+Continuing on from [[linux-memory-zones]], the next segment abstraction of RAM in
 Linux is pages. Each zone has a fixed set of pages, and each page has a fixed
 set of bytes.
 
