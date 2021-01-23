@@ -74,7 +74,7 @@ changed/been removed, so the content of a given file in memory is always
 up-to-date or non-existent.
 
 This process of allocating and deallocating file-backed memory is called
-"swapping". Learn [[linux-how-linux-uses-swap]].
+"swapping". Learn [[how-linux-uses-swap]].
 
 ## "Device backed" memory
 
@@ -98,7 +98,7 @@ Swap memory is not strictly memory stored in your RAM. Swap more refers to how
 your Linux kernel deals with running out of memory.
 
 File-backed and anonymous memory are the only memory mappings that are affected
-by swap. Read more about [[[linux-how-linux-uses-swap]]] and how to control it via the
+by swap. Read more about [[[how-linux-uses-swap]]] and how to control it via the
 [[[linux-memory-swappiness]]] setting
 
 ## References
