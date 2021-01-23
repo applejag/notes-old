@@ -9,7 +9,7 @@ tags:
 
 Your RAM in Linux is built upon the following abstractions:
 
-- Each CPU (multi-core or not) is associated to their own [[[fea696a7]]], ex: Node 0.
+- Each CPU (multi-core or not) is associated to their own [[[linux-memory-nodes]]], ex: Node 0.
 
   - Each node is made up of [[[linux-memory-zones]]], ex: DMA, DMA32, Normal.
 
