@@ -143,7 +143,7 @@ DoSomething()
 > **Note:** This is deprecated and should not be used by any package! Support for
 > this will eventually be removed, in favor of gomodules.
 
-This requires a package to use vendoring instead of modules.
+This requires a project to be [[[vendoring-packages]]] instead of using modules.
 
 ```go
 import (
