@@ -144,7 +144,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 
 <span class="co">// No need for &quot;somepkg.&quot;</span>
 <span class="">DoSomething()</span>
-</code></pre></div><h2 id="relative-imports">Relative imports</h2><blockquote><p><strong>Note:</strong> This is deprecated and should not be used by any package! Support for this will eventually be removed, in favor of gomodules.</p></blockquote><p>This requires a package to use vendoring instead of modules.</p><div class="pandoc-code highlighted"><pre><code class="go"><span class="kw">import</span><span class=""> (</span>
+</code></pre></div><h2 id="relative-imports">Relative imports</h2><blockquote><p><strong>Note:</strong> This is deprecated and should not be used by any package! Support for this will eventually be removed, in favor of gomodules.</p></blockquote><p>This requires a project to be <span class="zettel-link-container folge"><span class="zettel-link" title="2021-01-24T14:53"><a href="vendoring-packages.html">Vendoring packages</a><span data-nosnippet="" style="user-select: none; color: gray" title="Folgezettel">#</span></span></span> instead of using modules.</p><div class="pandoc-code highlighted"><pre><code class="go"><span class="kw">import</span><span class=""> (</span>
 <span class="">    </span><span class="st">&quot;../../some/other/dir/branch&quot;</span>
 <span class="">    </span><span class="st">&quot;./some/sub/dir&quot;</span>
 <span class="">)</span>
