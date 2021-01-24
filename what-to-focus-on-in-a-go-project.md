@@ -35,7 +35,7 @@ consumer/customer/user of your project.
   - [G11: Inconsistency](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/general/g11-inconsistency.html)
   - [G24: Follow Standard Conventions](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/general/g24-follow-standard-conventions.html)
 
-- Inviting to contributors by [[[b31e03e6]]] and keeping the code
+- Inviting to contributors by [[[documenting-go-packages]]] and keeping the code
   clean and clutter free.
   
   - [C2: Obsolete Comment](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/comments/c2-obsolete-comment.html)
