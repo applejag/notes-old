@@ -12,7 +12,7 @@ This is an old way of resolving package that was used before Go invented so
 called "gomodules".
 
 If you're looking for how to import packages in your `.go` files, you should
-instead read about [[[71c87adb]]]. This is about how different
+instead read about [[[ways-of-importing-go-packages]]]. This is about how different
 versions of packages are referenced.
 
 You can easily spot if a package uses the newer gomodules or the older vendoring
