@@ -50,4 +50,4 @@ authentication is dealt with over the web.
 
 - Cambell, R. & Franklin, C.. (Hosts). (2021, January 14). *IdentityServer Update
   with Dominick Baier and Brock Allen* (No. 1722) [Audio podcast episode].
-  In *.NET Rocks!*. vNext.
+  In *.NET Rocks!*. vNext. <https://www.dotnetrocks.com/?show=1722>
