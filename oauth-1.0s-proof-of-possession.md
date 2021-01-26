@@ -1,7 +1,10 @@
 ---
 date: 2021-01-26T20:08
 tags: 
-  - stub
+  - security/securing authentication
+  - security/managing login
+  - security/proof of possession
+  - security/oauth
 ---
 
 # OAuth 1.0's proof of possession

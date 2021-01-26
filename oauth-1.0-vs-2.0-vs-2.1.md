@@ -1,6 +1,9 @@
 ---
 date: 2021-01-26T19:44
 tags: 
+  - security/securing authentication
+  - security/managing login
+  - security/oauth
 ---
 
 # OAuth 1.0 vs 2.0 vs 2.1

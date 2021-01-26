@@ -1,7 +1,10 @@
 ---
 date: 2021-01-26T20:12
 tags: 
-  - stub
+  - natural lang/advanced english words
+  - security/securing authentication
+  - security/managing login
+  - security/oauth
 ---
 
 # What OAuth 2.1 brings to the table
