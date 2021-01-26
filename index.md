@@ -9,6 +9,7 @@ The source for this zettelkasten is stored as open source on GitHub at
 ## Useful when writing zettels
 
 - APA citation generation: <https://www.scribbr.com/apa-citation-generator/>
+- Podcast episode citation: <https://apastyle.apa.org/style-grammar-guidelines/references/examples/podcast-references#2>
 
 ## Find me on the internet
 
