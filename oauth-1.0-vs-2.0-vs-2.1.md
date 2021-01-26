@@ -39,7 +39,7 @@ following points:
 
 Development of OAuth has been at a standstill up until recently. OAuth 2.1 is at
 the horizon and promises to resolve some of the issues with OAuth 2.0. It's wise
-to study [[[ba3e9632]]] before it lands in our [developers]
+to study [[[what-oauth-2.1-brings-to-the-table]]] before it lands in our [developers]
 hands, so we can properly prepare for this somewhat big change in how
 authentication is dealt with over the web.
 
