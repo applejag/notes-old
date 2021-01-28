@@ -9,9 +9,6 @@ tags:
 
 Requirements are not to be ignored, but they are also not the main focus.
 
-Desiging against the requirements is more or less just designing
-with #[[functional-decomposition]].
-
 Imagine we build a house, and listen to the requirements of the family that will
 buy this brand new home.
 
@@ -46,9 +43,8 @@ The requirements of a house is to take care of its inhabitants.
 
 Everything else is fluff. Details.
 
-You can't be done with the requirements. Requirements change. They are the most
-volatile concept in the entirety of a solution. Because of this, your
-specification for what the house should contain *will never be complete.*
+If you design the house using #[[functional-decomposition]], then you're never
+done with the specifications. They will never fulfil the requirements.
 
 ## Key takeaways
 
