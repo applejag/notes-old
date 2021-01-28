@@ -23,6 +23,14 @@ System architect, and a really good one at that.
 
 - Founder of IDesign.
 
+## Famous quotes
+
+> "Alure of the free lunch"
+
+> "Adding value without sweating"
+
+> "Nothing worse than responding 'We will fix it. No sweat!'"
+
 ## References
 
 - J. Löwy (January 27, 2021), *"Righting Software - System Design"* [Workshop],
