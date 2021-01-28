@@ -4,7 +4,7 @@ tags:
   - stub
 ---
 
-# Alure of the free lunch
+# Allure of the free lunch
 
 This is a common phrase told by #[[juval-lowy]]. In other words: *"There is no such
 thing as a free lunch"*, or *"You cannot add value without sweating"* 
