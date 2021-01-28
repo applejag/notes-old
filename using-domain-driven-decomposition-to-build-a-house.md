@@ -14,7 +14,7 @@ But that seems quite narrow and easy to break. A common counter that the softwar
 world mentions is to instead look into domain-driven decomposition (often
 referred to as *"Domain Driven Design"*, or *"DDD"*).
 
-This however, is no different than saying you're using #[[b67e68fa]]
+This however, is no different than saying you're using #[[functional-decomposition]]
 to build a house. You're just expanding the scope of the features.
 
 > "[Domain-driven decomposition] is still death [to a project], but in disguise."
