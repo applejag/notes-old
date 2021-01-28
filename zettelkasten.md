@@ -41,10 +41,10 @@ _(The notes that got away)_ Temporary notes that contain no particular context.
 They should be fast to jot, as the reader will be you on the evening of the same
 day.
 
-### Project-related notes
+### Project-related / litteature notes
 
 Gray area between permanent and fleeting notes. If you're reading a book, or
-working on a project, it can be good to write down some of your findings there
+Working on a project, it can be good to write down some of your findings there
 and then, but add a little bit of context as the reader will be you at the end
 of the book / chapter / project sprint / project.
 
