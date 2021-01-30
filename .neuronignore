@@ -1,4 +1,5 @@
 .*/**
 static/README.md
 /README.md
+/readme.md
 *.sh
