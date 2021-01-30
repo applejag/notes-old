@@ -1,3 +1,9 @@
+---
+date: 2021-01-14T12:35
+dirtree:
+  display: False
+---
+
 # Wiki of Kalle
 
 This is my personal wiki that I put an empasis on trying to follow the
