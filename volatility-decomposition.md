@@ -5,7 +5,7 @@ tags:
   - stub
 ---
 
-# Volatility-decomposition
+# Volatility decomposition
 
 stub
 
