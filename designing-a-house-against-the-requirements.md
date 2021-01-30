@@ -44,7 +44,7 @@ The requirements of a house is to take care of its inhabitants.
 
 Everything else is fluff. Details.
 
-If you design the house using #[[functional-decomposition]], then you're never
+If you design the house using [[functional-decomposition]], then you're never
 done with the specifications. They will never fulfil the requirements.
 
 ## Key takeaways
