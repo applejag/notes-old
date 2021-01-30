@@ -10,8 +10,8 @@ System architect, and a really good one at that.
 
 ## Known for
 
-- "Righting Software", name on his courses, masters, workshops, and more. All
-  orienting around teaching out the *proper* way to design system, as in his
+- "[[righting-software]]", name on his courses, masters, workshops, and more.
+  All orienting around teaching out the *proper* way to design system, as in his
   words *"the entire software world is broken"*, because everyone is doing it
   wrong.
   
@@ -27,9 +27,7 @@ System architect, and a really good one at that.
 
 > "[[allure-of-the-free-lunch]]#"
 
-> "Adding value without sweating"
-
-> "Nothing worse than responding 'We will fix it. No sweat!'"
+> "Everyone is doing software wrong, until they have met me"
 
 ## References
 
