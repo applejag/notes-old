@@ -5,4 +5,5 @@
 , theme = "teal"
 -- This is used in the "edit" button
 , editUrl = Some "https://github.com/jilleJr/wiki/edit/main/"
+, plugins = [ "neuronignore", "links", "tags", "uptree", "dirtree" ]
 }
