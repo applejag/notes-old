@@ -12,6 +12,19 @@ first in functional decomposition.
 It's the easiest way to build software and therefore also the most common, but
 worse it's also partly why any other procedures is more or less unknown.
 
+## Prevents reuse
+
+This may seem contrary to what functional decomposition is actually meant to
+solve. "By grouping each function, we split up the code and can reuse the
+functions from the different services" *-said the naive architect.*
+
+The problem lies in the integration. You implement the functions and start
+adding integrations between them, thereby locking in the feature-sets. As a
+result when you need to use a feature from one of the services, you either need
+to add some bad spagetti integration between them or you duplicate the features.
+
+Here's some example analogies to further strengthen the argument:
+
 [[[z:zettels?tag=programming/why+functional+decomposition+is+bad]]]
 
 ## References
