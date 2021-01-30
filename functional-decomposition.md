@@ -23,6 +23,11 @@ adding integrations between them, thereby locking in the feature-sets. As a
 result when you need to use a feature from one of the services, you either need
 to add some bad spagetti integration between them or you duplicate the features.
 
+Worst-, and most common case, is that some circular dependencies starts popping
+up. When this happens the project could easily be declared dead, and any further
+progress made on it will just keep on putting nails into the coffin of a rotten
+corpse that is the project.
+
 Here's some example analogies to further strengthen the argument:
 
 [[[z:zettels?tag=programming/why+functional+decomposition+is+bad]]]
