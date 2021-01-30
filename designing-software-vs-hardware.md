@@ -33,6 +33,14 @@ an argument for relying on these hotswapping capabilities.
 
 With fewer limits comes greater responsabilties. More stuff that can go wrong.
 
+## Designing hardware with todays software techniques
+
+If we apply the invalid techniques used today to build software,
+namely #[[functional-decomposition]], then we can notice some somewhat amusing
+yet extreme results:
+
+[[[z:zettels?tag=programming/designing+hardware+as+if+it+was+software]]]
+
 ## References
 
 - J. Löwy (January 27, 2021), *"Righting Software - System Design"* [Workshop],

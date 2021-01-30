@@ -3,6 +3,7 @@ date: 2021-01-28T20:30
 tags: 
   - programming/why functional decomposition is bad
   - programming/incorrectly designing a house
+  - programming/designing hardware as if it was software
 ---
 
 # Designing a house against the requirements

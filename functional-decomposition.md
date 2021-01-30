@@ -29,9 +29,8 @@ up. When this happens the project could easily be declared dead, and any further
 progress made on it will just keep on putting nails into the coffin of a rotten
 corpse that is the project.
 
-Here's some example analogies to further strengthen the argument:
-
-[[[z:zettels?tag=programming/why+functional+decomposition+is+bad]]]
+To strengthen the argument, we can look at the comparison of
+[[designing-software-vs-hardware]]#.
 
 ## References
 
