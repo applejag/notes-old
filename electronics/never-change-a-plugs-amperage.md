@@ -34,8 +34,8 @@ and even letting your mom down. :)
 
 ## Sources
 
-- My mom.
-- My stepdad.
+- My mom, personal conversation, January 17, 2021.
+- My stepdad, personal conversation, January 17, 2021.
 
 Also known as
 
