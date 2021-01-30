@@ -4,6 +4,8 @@ date: 2021-01-20T21:30
 tags: 
   - linux/how does memory work in linux
   - linux/what types of memory exists in linux
+dirtree:
+  display: False
 ---
 
 # Linux memory layout
