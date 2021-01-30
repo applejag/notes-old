@@ -9,6 +9,6 @@ tags:
 
 - Good idea to look into how you would be [[creating-a-lasting-go-project]]#.
 
-- [[d4e019a6]]#
+- [[parallelism-in-go]]#
 
 [[[z:zettels?tag=go/using+packages+in+go]]]
