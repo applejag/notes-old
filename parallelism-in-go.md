@@ -34,7 +34,7 @@ million of goroutines running in complete parallelism, but Go deals with the
 concurrency and goroutine-switching for you so all your different goroutines get
 all to execute.
 
-[[z:zettels?tag=go/concurrent+programming]]
+[[z:zettels?tag=go/concurrent+programming]]#
 
 ## References
 
