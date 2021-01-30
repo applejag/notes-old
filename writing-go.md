@@ -7,8 +7,8 @@ tags:
 
 # Writing Go
 
-Good idea to look into how you would be [[[creating-a-lasting-go-project]]].
+- Good idea to look into how you would be [[creating-a-lasting-go-project]]#.
 
-## Packages
+- [[d4e019a6]]#
 
 [[[z:zettels?tag=go/using+packages+in+go]]]
