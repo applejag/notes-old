@@ -9,7 +9,25 @@ The source for this zettelkasten is stored as open source on GitHub at
 ## Useful when writing zettels
 
 - APA citation generation: <https://www.scribbr.com/apa-citation-generator/>
+
 - Podcast episode citation: <https://apastyle.apa.org/style-grammar-guidelines/references/examples/podcast-references#2>
+
+- Renaming zettels using `./mv_zettel.sh`
+
+  ```sh
+  ./mv_zettel.sh <old-name-of-zettel> <new-name-of-zettel>
+  ```
+
+  This will:
+
+  - Trim `.md` from the names before starting to work
+
+  - Rename the file `old-name-of-zettel.md` to `new-name-of-zettel.md`
+
+  - Find all occurrences of `[[old-name-of-zettel]]` among your zettels and
+    replace them with `[[new-name-of-zettel]]`
+
+  - Create a Git commit of all your changes
 
 ## Find me on the internet
 
