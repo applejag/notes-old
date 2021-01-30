@@ -14,6 +14,8 @@ The source for this zettelkasten is stored as open source on GitHub at
 
 - Renaming zettels using [[mv_zettel-script]]#
 
+- Cerveau: <https://www.cerveau.app/-/jilleJr/wiki/main>
+
 ## Find me on the internet
 
 ### ActivityPub/Fediverse
