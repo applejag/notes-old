@@ -7,7 +7,7 @@ tags:
 
 # Parallelism in Go
 
-#[[writing-go]] code that runs in parallel first requires your use case to support
+#[[go]] code that runs in parallel first requires your use case to support
 concurrent tasks. (#[[concurrency-vs-parallelism]])
 
 You OS has a native support for threads. Most programming languages however
