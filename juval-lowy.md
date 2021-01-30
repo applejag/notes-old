@@ -25,7 +25,7 @@ System architect, and a really good one at that.
 
 ## Famous quotes
 
-> "Alure of the free lunch"
+> "[[allure-of-the-free-lunch]]#"
 
 > "Adding value without sweating"
 
