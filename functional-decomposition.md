@@ -30,7 +30,8 @@ progress made on it will just keep on putting nails into the coffin of a rotten
 corpse that is the project.
 
 To strengthen the argument, we can look at the comparison of
-[[designing-software-vs-hardware]]#.
+[[designing-software-vs-hardware]]# or more prominently an example of
+[[stocks-trading-service-using-functional-decomposition]]#.
 
 ## References
 
