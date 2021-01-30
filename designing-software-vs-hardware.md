@@ -7,7 +7,7 @@ tags:
 # Designing software vs hardware
 
 Common argument for designing the architecture differently for software vs
-hardware, such as using #[[functional-decomposition]] which is rarely ever used
+hardware, such as using [[functional-decomposition]] which is rarely ever used
 in hardware architectures design procedures, is:
 
 > Software is different than hardware. It's *soft*ware, i.e. it's easy to change
@@ -36,7 +36,7 @@ With fewer limits comes greater responsabilties. More stuff that can go wrong.
 ## Designing hardware with todays software techniques
 
 If we apply the invalid techniques used today to build software,
-namely #[[functional-decomposition]], then we can notice some somewhat amusing
+namely [[functional-decomposition]], then we can notice some somewhat amusing
 yet extreme results:
 
 [[z:zettels?tag=programming/designing+hardware+as+if+it+was+software]]#

@@ -8,7 +8,7 @@ tags:
 
 # Using functional decomposition to build a house
 
-When designing software, #[[functional-decomposition]] is the most natural procedure.
+When designing software, [[functional-decomposition]] is the most natural procedure.
 It's the most common practice, because it's the easiest practice.
 
 But it's terribly bad in the long run and results in software systems getting
