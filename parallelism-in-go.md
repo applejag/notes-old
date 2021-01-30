@@ -8,7 +8,7 @@ tags:
 # Parallelism in Go
 
 #[[writing-go]] code that runs in parallel first requires your use case to support
-concurrent tasks. (#[[4afe7b83]])
+concurrent tasks. (#[[concurrency-vs-parallelism]])
 
 You OS has a native support for threads. Most programming languages however
 supply some kind of abstraction on top of threads though as thread have quite the
