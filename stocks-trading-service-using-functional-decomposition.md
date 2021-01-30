@@ -11,6 +11,6 @@ By using #[[functional-decomposition]] to design a stocks trading service, in le
 lay a microservice architecture, then you might end up with the following
 architectural diagram:
 
-![stocks trading service diagram](static/righting-software-stocks-service-functional-decomposited.png)
+![stocks trading service diagram](static/righting-software-stocks-service-functional-decomposited.png){.ui .centered .large .image}
 
 
