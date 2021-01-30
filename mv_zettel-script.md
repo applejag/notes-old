@@ -1,3 +1,7 @@
+---
+date: 2021-01-30T15:59
+---
+
 # mv_zettel.sh script
 
 The `mv_zettel.sh` is a script in the repository that's available as a utility
