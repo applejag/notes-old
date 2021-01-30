@@ -2,6 +2,8 @@
 date: 2021-01-28T20:00
 tags: 
   - programming/how not to design software
+dirtree:
+  display: False
 ---
 
 # Functional decomposition
