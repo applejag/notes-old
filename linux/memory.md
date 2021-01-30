@@ -1,4 +1,5 @@
 ---
+slug: linux-memory-layout
 date: 2021-01-20T21:30
 tags: 
   - linux/how does memory work in linux
