@@ -98,8 +98,8 @@ Swap memory is not strictly memory stored in your RAM. Swap more refers to how
 your Linux kernel deals with running out of memory.
 
 File-backed and anonymous memory are the only memory mappings that are affected
-by swap. Read more about [[[how-linux-uses-swap]]] and how to control it via the
-[[[linux-memory-swappiness]]] setting
+by swap. Read more about [[how-linux-uses-swap]]# and how to control it via the
+[[linux-memory-swappiness]]# setting
 
 ## References
 

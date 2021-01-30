@@ -34,7 +34,7 @@ To simplify, comparing OAuth 1.0 and OAuth 2.0 and roughly be done with the
 following points:
 
 - OAuth 1.0 is more secure than OAuth 2.0, some of which is thanks to the
-  [[[oauth-1.0s-proof-of-possession]]]
+  [[oauth-1.0s-proof-of-possession]]#
 
 - OAuth 1.0 is more convoluted (less simple), than OAuth 2.0
 
@@ -42,7 +42,7 @@ following points:
 
 Development of OAuth has been at a standstill up until recently. OAuth 2.1 is at
 the horizon and promises to resolve some of the issues with OAuth 2.0. It's wise
-to study [[[what-oauth-2.1-brings-to-the-table]]] before it lands in our [developers]
+to study [[what-oauth-2.1-brings-to-the-table]]# before it lands in our [developers]
 hands, so we can properly prepare for this somewhat big change in how
 authentication is dealt with over the web.
 

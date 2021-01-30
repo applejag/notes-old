@@ -13,7 +13,7 @@ Nodes in Linux has a very straight forward naming format for their nodes.
 Starting at "Node 0", incrementing for every node (Node 0, Node 1, Node 2, ...).
 
 Your computer probably only has 1 node: Node 0. You can see the list of nodes
-and their associated [[[linux-memory-zones]]] by running:
+and their associated [[linux-memory-zones]]# by running:
 
 ```sh
 $ less /proc/buddyinfo

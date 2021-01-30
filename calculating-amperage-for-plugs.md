@@ -63,4 +63,4 @@ to the living room lights, *can I just swap my current living room plug out for
 a $10A$ plug?*
 
 [No.](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) Leave it to
-the professionals. Read more on why you should [[[never-change-a-plugs-amperage]]]
+the professionals. Read more on why you should [[never-change-a-plugs-amperage]]#

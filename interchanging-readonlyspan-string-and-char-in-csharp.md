@@ -21,7 +21,7 @@ have to make slight refactorings to adjust for correct methods used. Most just
 include indexing and slicing, which can be done with `span.Slice(i, len)` or
 `span[a..b]` instead of `string.Substring(i, len)`. Other common operations such
 as concatenation does have proper support already throughout the .NET standard
-library (See: [[[concatenating-readonlyspan]]]).
+library (See: [[concatenating-readonlyspan]]#).
 
 With that you can then let the caller of the function choose between sending a
 range of different types, as `string`, `Span<T>`, and `char[]` all can be

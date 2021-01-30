@@ -26,9 +26,9 @@ What you can do is split up your Go package into multiple packages. Either you:
   
 Both options of splitting up the code base is to better conform with the *Single
 Responsibility Principle (SRP)*, which is one of the key focus points in
-[[[what-to-focus-on-in-a-go-project]]].
+[[what-to-focus-on-in-a-go-project]]#.
 
-There's also multiple [[[ways-of-importing-go-packages]]], which is good to read up
+There's also multiple [[ways-of-importing-go-packages]]#, which is good to read up
 on to take full advantage of both your internal packages, as well as any other
 imported packages.
 

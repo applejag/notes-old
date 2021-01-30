@@ -39,7 +39,7 @@ If we apply the invalid techniques used today to build software,
 namely #[[functional-decomposition]], then we can notice some somewhat amusing
 yet extreme results:
 
-[[[z:zettels?tag=programming/designing+hardware+as+if+it+was+software]]]
+[[z:zettels?tag=programming/designing+hardware+as+if+it+was+software]]#
 
 ## References
 

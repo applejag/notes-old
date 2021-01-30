@@ -134,7 +134,7 @@ library, but the library consumer can very well just *not* use that
 implementation and instead add their own `Database` implementation that may very
 well just use Postgres, some in-memory store, or just direct file access.
 
-This is also talked about in [[[what-to-focus-on-in-a-go-project]]] in its section
+This is also talked about in [[what-to-focus-on-in-a-go-project]]# in its section
 about integration and extensibility. It's more work, but it's worth it.
 
 ## Interfaces: errors

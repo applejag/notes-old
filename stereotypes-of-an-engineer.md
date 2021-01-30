@@ -22,7 +22,7 @@ engineer, if you so wanted to.
 
 In America, chemical engineering was first introduced around the later 1800-1900,
 long before any states had introduced certificates/licenes for the job. They
-were first introduced later, as [[[regulations-are-written-in-blood]]].
+were first introduced later, as [[regulations-are-written-in-blood]]#.
 
 This does not invalidate those early chemical engineers, but only invalidates
 the argument that they weren't.
@@ -44,7 +44,7 @@ the observer thinks it is. I.e., it's highly subjective.
 
 Math comes in all shapes and sizes though. And it's true, engineers does use
 math in their work. You have to be careful though when you're defining "math",
-as math is a huge subject, as even [[[programming-requires-math]]].
+as math is a huge subject, as even [[programming-requires-math]]#.
 
 ## References
 

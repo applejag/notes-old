@@ -11,4 +11,4 @@ tags:
 
 - [[parallelism-in-go]]#
 
-[[[z:zettels?tag=go/using+packages+in+go]]]
+[[z:zettels?tag=go/using+packages+in+go]]#
