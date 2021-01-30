@@ -44,7 +44,7 @@ The customers actually wanted to be able to bake bread in their house.
 
 No problem you add a small bench, place an oven on the ground, and call it a day.
 
-## Nothing is build like this
+## Nothing is built like this
 
 This is madness. No house arcitect would simply start with the microwave. That's
 a detail. You don't even start with the kitchen table. That's also a detail.
