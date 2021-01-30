@@ -20,7 +20,7 @@ Breaking the common misconceptions that today have become the norm:
 - *"Software must have bugs"*
 - *"Software always misses its deadlines"*
 
-> "When I'm the architect for a project, we deliver it **on time** and with
+> "[When I'm the architect for a project] we deliver **on time** and with
 > **zero defects**"
 >
 > J. Löwy, January 27, 2021.
