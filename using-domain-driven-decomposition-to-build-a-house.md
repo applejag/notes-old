@@ -7,8 +7,9 @@ tags:
 
 # Using domain-driven decomposition to build a house
 
-To build a house, you could be [[using-domain-driven-decomposition-to-build-a-house]] by
-finding the requirements and adding features to meet those current requirements.
+To build a house, you could be [[using-functional-decomposition-to-build-a-house]]
+by finding the requirements and adding features to meet those current
+requirements.
 
 But that seems quite narrow and easy to break. A common counter that the software
 world mentions is to instead look into domain-driven decomposition (often
