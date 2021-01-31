@@ -53,4 +53,4 @@ Besides this, there's also the factors to consider of "what makes users prefer
 your project over the alternatives". One of which being that
 [[users-prefer-foss-over-proprietary-tools]]#.
 
-[^pereira-2021] Pereira, M. (2021, January 17). *The values of Emacs, the Neovim revolution, and the VSCode gorilla.* mpereia. <https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/> *(Found via Hacker News: <https://news.ycombinator.com/item?id=25810427>)*
+[^pereira-2021]: Pereira, M. (2021, January 17). *The values of Emacs, the Neovim revolution, and the VSCode gorilla.* mpereia. <https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/> *(Found via Hacker News: <https://news.ycombinator.com/item?id=25810427>)*
