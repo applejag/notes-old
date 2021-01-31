@@ -31,9 +31,11 @@ up. When this happens the project could easily be declared dead, and any further
 progress made on it will just keep on putting nails into the coffin of a rotten
 corpse that is the project.
 
-To strengthen the argument, we can look at the comparison of
-[[designing-software-vs-hardware]]# or more prominently an example of
-[[stocks-trading-service-using-functional-decomposition]]#.
+To strengthen the argument, we can look at:
+
+- the comparison of [[designing-software-vs-hardware]]#,
+- an example of [[stocks-trading-service-using-functional-decomposition]]#,
+- or how using functional decomposition enforces [[locking-down-to-vendors]]#.
 
 ## References
 

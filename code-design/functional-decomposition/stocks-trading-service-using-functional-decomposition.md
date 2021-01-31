@@ -2,7 +2,7 @@
 date: 2021-01-30T21:19
 tags: 
   - programming/why functional decomposition is bad
-  - programming/when functions land in the frontend
+  - programming/when buissness logic lands in the frontend
 ---
 
 # Stocks trading service using functional decomposition
