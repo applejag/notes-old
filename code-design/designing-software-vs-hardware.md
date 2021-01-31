@@ -23,8 +23,8 @@ that topic.
 In software, we don't have those limit factors that physics usually puts on us.
 You can paint the walls before you actually built them.
 
-Law of the [[allure-of-the-free-lunch]] still applies here, as well as all the
-other design principles that engineers such as mechanical engineers have to
+Principle of the [[allure-of-the-free-lunch]] still applies here, as well as all
+the other design principles that engineers such as mechanical engineers have to
 consider.
 
 There's a huge freedom with software to be able to rip out dependency with such
