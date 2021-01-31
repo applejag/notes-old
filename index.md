@@ -26,7 +26,7 @@ The source for this zettelkasten is stored as open source on GitHub at
 
 ### ActivityPub/Fediverse
 
-- Blog: `@jilleJr@blog.jillejr.tech` _(<a rel="me" href="https://blog.jillejr.tech/">https\://blog.jillejr.tech/</a>)_
+- Blog: `@kalle@blog.jillejr.tech` _(<a rel="me" href="https://blog.jillejr.tech/">https\://blog.jillejr.tech/</a>)_
 - Mastodon: `@kalle@javisst.space` _(<a ref="me" href="https://javisst.space/@kalle">https\://javisst.space/@kalle</a>)_
 
 ### Other websites
