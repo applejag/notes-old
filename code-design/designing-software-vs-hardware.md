@@ -1,7 +1,7 @@
 ---
 date: 2021-01-30T16:00
 tags:
-  - stub
+  - programming/analogy of code design/functional decomposition
 ---
 
 # Designing software vs hardware

@@ -4,6 +4,7 @@ tags:
   - programming/why functional decomposition is bad
   - programming/incorrectly designing a house
   - programming/designing hardware as if it was software
+  - programming/analogy of code design/functional decomposition
 ---
 
 # Using domain-driven decomposition to build a house
