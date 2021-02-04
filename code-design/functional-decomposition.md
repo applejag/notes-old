@@ -37,6 +37,24 @@ To strengthen the argument, we can look at:
 - an example of [[stocks-trading-service-using-functional-decomposition]]#,
 - or how using functional decomposition enforces [[locking-down-to-vendors]]#.
 
+## Technical dept
+
+There are many phrases to describe projects that are in bad shape.
+
+- Code rot
+- Technical dept
+
+But they are all essentially the result of functional decomposition.
+
+Due to functional decomposition, projects turn out so bad that the developers
+say:
+
+> We won't have it no more! We need to rebuild it
+
+And then the manager does *not* (but should) answer:
+
+> But you messed it up the last time...
+
 ## References
 
 - J. Löwy (January 27, 2021), *"Righting Software - System Design"* [Workshop],
