@@ -36,6 +36,15 @@ Important to get what's wrong with today's way of designing software before
 digging into how to do it properly, as it's a total shift in procedures and
 mixing them does not end well.
 
+The design is of utter most importance. But to survive the brigade of
+"inevidable" bugs you need testing.
+
+- **Unit testing**: Requirement of any project.
+- **Regression testing**: Requirement to deliver zero defects.
+
+The latter, regression testing, is not feasible nor fully achievable when
+desiging by [[functional-decomposition]]#.
+
 ## Learn more
 
 - Righting Software, <https://rightingsoftware.org/>

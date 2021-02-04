@@ -10,7 +10,7 @@ System architect, and a really good one at that.
 
 ## Known for
 
-- "[[righting-software]]", name on his courses, masters, workshops, and more.
+- "[[righting-software]]#", name on his courses, masters, workshops, and more.
   All orienting around teaching out the *proper* way to design system, as in his
   words *"the entire software world is broken"*, because everyone is doing it
   wrong.
