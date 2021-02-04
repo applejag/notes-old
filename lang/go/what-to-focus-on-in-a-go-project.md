@@ -52,7 +52,8 @@ consumer/customer/user of your project.
 The classical ["Unix philosophy"](https://en.wikipedia.org/wiki/Unix_philosophy)
 that is echoed all over the place and phrased in different ways. The concept is
 also commonly referred to as the *Single Responsibility Principle (SRP)*[^srp]
-or the *Common Closure Principle (CCP)*[^ccp].
+or the *Common Closure Principle (CCP)*[^ccp], and in turn relies on that you
+design the system by [[volatility-decomposition]]#.
 
 The idea is that your package should have a goal to solve, and it should not try
 to touch anything outside its own scope. The term "bloat" often comes up when
