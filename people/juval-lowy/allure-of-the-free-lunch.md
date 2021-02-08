@@ -12,6 +12,16 @@ thing as a free lunch"*, or *"You cannot add value without sweating"*
 
 > "Nothing worse than responding 'We will fix it. No sweat!'"
 
+## First law of thermodynamics
+
+The first law of thermodynamics is about the conservation of energy, meaning that
+no energy can be created nor destroyed; energy can only be transformed.
+
+In simpler terms: Energy cannot be created out of thin air. To get some output,
+you must give it some input.
+
+Or in other words: *You cannot add value without sweating.*
+
 ## Alchemists
 
 Alchemism is an old profession to turn dirt into gold. This has never been proven

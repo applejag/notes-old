@@ -19,7 +19,7 @@ decomposition requires you to toil and *sweat* a lot.
 
 Primary goal: Encapsulate change.
 
-## Surviving a hand-grenade
+## Surviving a hand-grenade of changes
 
 Imagine your system. If you were to hand a live and fused grenade to one of its
 components, what will happen to the rest of the system?
@@ -43,8 +43,8 @@ You want to **encapsulate change.**
 ## Designing components
 
 Each volatility can be seen as an "area of change". This goes hand in hand with
-the *Single Responsibility Principle (SRP)*[^srp] or the *Common Closure
-Principle (CCP)*[^ccp], that specifies that a component should not be bloated
+the *Single Responsibility Principle (SRP)[^srp]* or the *Common Closure
+Principle (CCP)[^ccp]*, that specifies that a component should not be bloated
 with responsabilities to make changes more intact.
 
 To clarify:
