@@ -11,6 +11,9 @@ tags:
 
 Requirements are not to be ignored, but they are also not the main focus.
 
+Though this is usually the outcome, as systems are commonly chopped up with use
+cases split between the customers.
+
 Imagine we build a house, and listen to the requirements of the family that will
 buy this brand new home.
 
