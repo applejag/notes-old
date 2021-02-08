@@ -40,22 +40,18 @@ You want to **encapsulate change.**
 
 [[z:zettels?tag=programming/analogy+of+code+design/volatility+decomposition]]
 
-## Designing components
+## Where to start
 
-Each volatility can be seen as an "area of change". This goes hand in hand with
-the *Single Responsibility Principle (SRP)[^srp]* or the *Common Closure
-Principle (CCP)[^ccp]*, that specifies that a component should not be bloated
-with responsabilities to make changes more intact.
+1. To start desiging, you must start with [[finding-a-systems-volatilities]]#.
 
-To clarify:
+2. Continue with [[finding-a-systems-components]]# based on the volatilities.
 
-- Each component should be based on 1 (one) *area of change*, and not by a set of
-  features.
-  
-- Each volatility does not need its own component.
+## Issues with volatility-based decomposition
 
-The [[volatilities-and-components-of-pumping-blood]]# analogy describes this
-difference more concretely.
+There are plenty, and all originates from the fact that it's more difficult
+and requires more sweating than [[functional-decomposition]].
+
+[[z:zettels?tag=code+design/issues+with+volatility+decomposition]]
 
 ## Universal rule
 
@@ -63,7 +59,7 @@ One of the favorite aspects of volatility-based decomposition, according to
 Juval Löwy, is that these rules and principles work universally when designing.
 
 There's no small footnote specifying that this *"Does not apply to software"*
-(See [[designing-software-vs-hardware]]).
+([[designing-software-vs-hardware]]).
 
 Everything is designed through volatility decomposition, because while it's the
 difficult route, it is also the only resilient one.
