@@ -25,9 +25,9 @@ System architect, and a really good one at that.
 
 ## Famous quotes
 
-> "[[allure-of-the-free-lunch]]#"
+> "[[allure-of-the-free-lunch]]#" (J. Löwy, 2021)
 
-> "Everyone is doing software wrong, until they have met me"
+> "Everyone is doing software wrong, until they have met me" (J. Löwy, 2021)
 
 ## References
 
