@@ -31,6 +31,17 @@ functional decomposition. In this case, [[functional-decomposition]]# is the
 > until you've convinced yourself"
 > --- J. Löwy (January 27, 2021)
 
+## Undoing the past
+
+This is sometimes referred to as "overengineering", though there are slight
+differences in semantics as "overengineering" is considered cheerful, while
+"overdoing it" is kept at a reasonable harsh level.
+
+What you may not realize is that you are effectively undoing the past by
+overdoing it. Everything has to be rewritten if you take this route. The question
+to ask yourself is: *Does this need to be encapsulated.* Even for the
+volatilities that seem obvious to require encapsulation at first.
+
 ## References
 
 - J. Löwy (January 27, 2021), *"Righting Software - System Design"* [Workshop],
