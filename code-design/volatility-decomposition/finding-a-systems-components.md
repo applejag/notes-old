@@ -1,7 +1,7 @@
 ---
 date: 2021-02-08T20:55
 tags: 
-  - stub
+  - code design/how to do volatility decomposition
 ---
 
 # Finding a system's components

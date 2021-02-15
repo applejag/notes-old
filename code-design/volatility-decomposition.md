@@ -42,9 +42,13 @@ You want to **encapsulate change.**
 
 ## Where to start
 
-1. To start desiging, you must start with [[finding-a-systems-volatilities]]#.
+1. Before you do anything, you must bein with
+   [[finding-the-nature-of-your-buisness]]#.
 
-2. Continue with [[finding-a-systems-components]]# based on the volatilities.
+2. Continue with [[finding-a-systems-volatilities]]#.
+
+3. Complete the overall design by [[finding-a-systems-components]]#,
+   based on the volatilities from step 2.
 
 ## Issues with volatility-based decomposition
 

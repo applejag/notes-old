@@ -1,14 +1,14 @@
 ---
 date: 2021-02-08T19:38
 tags: 
-  - stub
+  - code design/how to do volatility decomposition
 ---
 
 # Finding a system's volatilities
 
-Figuring out which volatilities a system will have is seeking the hidden.
+Figuring out which volatilities a system will have, is seeking the hidden.
 
-Figuring out which feature/functions a system will have is obvious.
+Figuring out which feature/functions a system will have, is obvious.
 
 > Reminder: A volatility does not equal a component/micro service.
 
