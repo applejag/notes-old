@@ -31,7 +31,7 @@ with some more. See the sample of a
 [[stocks-trading-service-using-volatility-decomposition]]# to get an idea of the
 scope of volatilities.
 
-When you've done this, continue with 
+When you've done this, continue with [[finding-a-systems-components]]#.
 
 ## References
 

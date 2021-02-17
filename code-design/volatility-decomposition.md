@@ -50,6 +50,13 @@ You want to **encapsulate change.**
 3. Complete the overall design by [[finding-a-systems-components]]#,
    based on the volatilities from step 2.
 
+## How to get good
+
+The answer is obvious: **practice, practice, practice!**
+
+But there are some good tips and tricks you can read on about
+[[getting-good-at-volatility-decomposition]]#.
+
 ## Issues with volatility-based decomposition
 
 There are plenty, and all originates from the fact that it's more difficult
