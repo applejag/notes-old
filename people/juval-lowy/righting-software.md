@@ -25,6 +25,14 @@ Breaking the common misconceptions that today have become the norm:
 >
 > J. Löwy, January 27, 2021.
 
+## Key observations
+
+- Features is an abstract construct that is the result from the integration, not
+  from implementation.
+
+- A software architect is a human with the same components as a hunter/gatherer
+  from 10,000 years ago, and yet it works fine.
+
 ## Core concepts
 
 Löwys proposed methods breaks down into two main categories:
