@@ -1,3 +1,10 @@
+/* Custom italic */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+em, i {
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 120%;
+}
+
 /* https://nighteye.app/dark-css-generator/ */
 a { color: rgb(140, 140, 250); }
 ::-webkit-scrollbar-track-piece { background-color: rgba(255, 255, 255, 0.2) !important; }
