@@ -1,9 +1,24 @@
 /* https://nighteye.app/dark-css-generator/ */
-a { color: rgb(140, 140, 250); }::-webkit-scrollbar-track-piece { background-color: rgba(255, 255, 255, 0.2) !important; }::-webkit-scrollbar-track { background-color: rgba(255, 255, 255, 0.3) !important; }::-webkit-scrollbar-thumb { background-color: rgba(255, 255, 255, 0.5) !important; }embed[type="application/pdf"] { filter: invert(90%); }
+a { color: rgb(140, 140, 250); }
+::-webkit-scrollbar-track-piece { background-color: rgba(255, 255, 255, 0.2) !important; }
+::-webkit-scrollbar-track { background-color: rgba(255, 255, 255, 0.3) !important; }
+::-webkit-scrollbar-thumb { background-color: rgba(255, 255, 255, 0.5) !important; }
+embed[type="application/pdf"] { filter: invert(90%); }
 
-html { color: rgb(191, 191, 191); background: rgb(31, 31, 31) !important; }body { background-color: rgb(31, 31, 31); background-image: none !important; }input, select, textarea, button { color: rgb(191, 191, 191); background-color: rgb(31, 31, 31); }font { color: rgb(191, 191, 191); }
 
-html { filter: contrast(100%) brightness(100%) saturate(100%); }.NIGHTEYE_Filter { width: 100%; height: 100%; position: fixed; left: 0px; top: 0px; pointer-events: none; z-index: 2147483647; }.NIGHTEYE_YellowFilter { background: rgba(255, 255, 0, 0.15); opacity: 0; }.NIGHTEYE_BlueFilter { background: rgba(0, 0, 255, 0.15); opacity: 0; }.NIGHTEYE_DimFilter { background: rgba(0, 0, 0, 0.5); opacity: 0; }.NIGHTEYE_TransformZ { transform: translateZ(0px); }
+html { color: rgb(191, 191, 191); background: rgb(31, 31, 31) !important; }
+body { background-color: rgb(31, 31, 31); background-image: none !important; }
+input, select, textarea, button { color: rgb(191, 191, 191); background-color: rgb(31, 31, 31); }
+font { color: rgb(191, 191, 191); }
+
+
+html { filter: contrast(100%) brightness(100%) saturate(100%); }
+.NIGHTEYE_Filter { width: 100%; height: 100%; position: fixed; left: 0px; top: 0px; pointer-events: none; z-index: 2147483647; }
+.NIGHTEYE_YellowFilter { background: rgba(255, 255, 0, 0.15); opacity: 0; }
+.NIGHTEYE_BlueFilter { background: rgba(0, 0, 255, 0.15); opacity: 0; }
+.NIGHTEYE_DimFilter { background: rgba(0, 0, 0, 0.5); opacity: 0; }
+.NIGHTEYE_TransformZ { transform: translateZ(0px); }
+
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin&display=swap");*, ::after, ::before { box-sizing: inherit; }
 html { box-sizing: border-box; }
@@ -740,7 +755,29 @@ body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb:hover { background: rgba
   .ui.grid .stackable.row .ui.vertical.divider::after, .ui.grid .stackable.row .ui.vertical.divider::before, .ui.stackable.grid .ui.vertical.divider::after, .ui.stackable.grid .ui.vertical.divider::before { left: 0px; border-left: none; border-right: none; content: ""; display: table-cell; position: relative; top: 50%; width: 50%; background-repeat: no-repeat; }
   .ui.grid .stackable.row .ui.vertical.divider::before, .ui.stackable.grid .ui.vertical.divider::before { background-position: right 1em top 50%; }
   .ui.grid .stackable.row .ui.vertical.divider::after, .ui.stackable.grid .ui.vertical.divider::after { background-position: left 1em top 50%; }
-}.ui.divider > .icon { margin: 0px; font-size: 1rem; height: 1em; vertical-align: middle; }.ui.horizontal.divider[class*="left aligned"]::before { display: none; }.ui.horizontal.divider[class*="left aligned"]::after { width: 100%; }.ui.horizontal.divider[class*="right aligned"]::before { width: 100%; }.ui.horizontal.divider[class*="right aligned"]::after { display: none; }.ui.hidden.divider { border-color: transparent !important; }.ui.hidden.divider::after, .ui.hidden.divider::before { display: none; }.ui.divider.inverted, .ui.horizontal.inverted.divider, .ui.vertical.inverted.divider { color: rgb(255, 255, 255); }.ui.divider.inverted, .ui.divider.inverted::after, .ui.divider.inverted::before { border-color: rgba(36, 36, 36, 0.15) rgba(28, 28, 33, 0.15) rgba(28, 28, 33, 0.15) rgba(36, 36, 36, 0.15) !important; }.ui.fitted.divider { margin: 0px; }.ui.clearing.divider { clear: both; }.ui.section.divider { margin-top: 2rem; margin-bottom: 2rem; }.ui.divider { font-size: 1rem; }.ui.mini.divider { font-size: 0.785714rem; }.ui.tiny.divider { font-size: 0.857143rem; }.ui.small.divider { font-size: 0.928571rem; }.ui.large.divider { font-size: 1.14286rem; }.ui.big.divider { font-size: 1.28571rem; }.ui.huge.divider { font-size: 1.42857rem; }.ui.massive.divider { font-size: 1.71429rem; }.ui.horizontal.divider::after, .ui.horizontal.divider::before { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC"); }@media only screen and (max-width: 767px) {
+}
+.ui.divider > .icon { margin: 0px; font-size: 1rem; height: 1em; vertical-align: middle; }
+.ui.horizontal.divider[class*="left aligned"]::before { display: none; }
+.ui.horizontal.divider[class*="left aligned"]::after { width: 100%; }
+.ui.horizontal.divider[class*="right aligned"]::before { width: 100%; }
+.ui.horizontal.divider[class*="right aligned"]::after { display: none; }
+.ui.hidden.divider { border-color: transparent !important; }
+.ui.hidden.divider::after, .ui.hidden.divider::before { display: none; }
+.ui.divider.inverted, .ui.horizontal.inverted.divider, .ui.vertical.inverted.divider { color: rgb(255, 255, 255); }
+.ui.divider.inverted, .ui.divider.inverted::after, .ui.divider.inverted::before { border-color: rgba(36, 36, 36, 0.15) rgba(28, 28, 33, 0.15) rgba(28, 28, 33, 0.15) rgba(36, 36, 36, 0.15) !important; }
+.ui.fitted.divider { margin: 0px; }
+.ui.clearing.divider { clear: both; }
+.ui.section.divider { margin-top: 2rem; margin-bottom: 2rem; }
+.ui.divider { font-size: 1rem; }
+.ui.mini.divider { font-size: 0.785714rem; }
+.ui.tiny.divider { font-size: 0.857143rem; }
+.ui.small.divider { font-size: 0.928571rem; }
+.ui.large.divider { font-size: 1.14286rem; }
+.ui.big.divider { font-size: 1.28571rem; }
+.ui.huge.divider { font-size: 1.42857rem; }
+.ui.massive.divider { font-size: 1.71429rem; }
+.ui.horizontal.divider::after, .ui.horizontal.divider::before { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC"); }
+@media only screen and (max-width: 767px) {
   .ui.grid .stackable.row .ui.vertical.divider::after, .ui.grid .stackable.row .ui.vertical.divider::before, .ui.stackable.grid .ui.vertical.divider::after, .ui.stackable.grid .ui.vertical.divider::before { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC"); }
 }
 em[data-emoji] { opacity: 1; speak: none; backface-visibility: hidden; }
@@ -9150,7 +9187,7 @@ body.pushable > .pusher { background: rgb(28, 28, 33); }
   100% { background-color: rgb(252, 252, 253); }
 }
 
-body { background-color: rgb(31, 31, 31) !important; font-family: "Libre Franklin", serif !important; }
+html > body { background-color: rgb(31, 31, 31) !important; font-family: "Libre Franklin", serif !important; }
 body .ui.container { font-family: "Libre Franklin", serif !important; }
 body h1, h2, h3, h4, h5, h6, .ui.header, .headerFont { font-family: Merriweather, sans-serif !important; }
 body code, pre, tt, .monoFont { font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
@@ -9159,84 +9196,12 @@ body div.z-index ul { list-style-type: square; padding-left: 1.5em; }
 body div.z-index .uplinks { margin-left: 0.29999em; }
 body .q.under > li > span.zettel-link-container span.zettel-link a { color: rgb(191, 191, 191) !important; }
 body .q.unmatched { display: none; }
-body div#neuron-theme-default-teal .zettel-content h1 { background-color: rgb(36, 143, 137); color: #fff; }
-body div#neuron-theme-default-teal span.zettel-link-container span.zettel-link a { color: rgb(153, 230, 226); }
-body div#neuron-theme-default-teal span.zettel-link-container span.zettel-link a:hover { background-color: rgba(36, 143, 137, 0.1); }
-body div#neuron-theme-default-teal span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-teal nav.bottomPane { background-color: rgba(36, 143, 137, 0.02); }
-body div#neuron-theme-default-teal div#footnotes { border-top-color: rgb(36, 143, 137); }
-body div#neuron-theme-default-brown .zettel-content h1 { background-color: rgb(166, 104, 63); }
-body div#neuron-theme-default-brown span.zettel-link-container span.zettel-link a { color: rgb(220, 186, 163); }
-body div#neuron-theme-default-brown span.zettel-link-container span.zettel-link a:hover { background-color: rgba(166, 104, 63, 0.1); }
-body div#neuron-theme-default-brown span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-brown nav.bottomPane { background-color: rgba(166, 104, 63, 0.02); }
-body div#neuron-theme-default-brown div#footnotes { border-top-color: rgb(166, 104, 63); }
-body div#neuron-theme-default-red .zettel-content h1 { background-color: rgb(205, 55, 55); }
-body div#neuron-theme-default-red span.zettel-link-container span.zettel-link a { color: rgb(230, 153, 153); }
-body div#neuron-theme-default-red span.zettel-link-container span.zettel-link a:hover { background-color: rgba(205, 55, 55, 0.1); }
-body div#neuron-theme-default-red span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-red nav.bottomPane { background-color: rgba(205, 55, 55, 0.02); }
-body div#neuron-theme-default-red div#footnotes { border-top-color: rgb(205, 55, 55); }
-body div#neuron-theme-default-orange .zettel-content h1 { background-color: rgb(207, 121, 63); }
-body div#neuron-theme-default-orange span.zettel-link-container span.zettel-link a { color: rgb(230, 184, 153); }
-body div#neuron-theme-default-orange span.zettel-link-container span.zettel-link a:hover { background-color: rgba(207, 121, 63, 0.1); }
-body div#neuron-theme-default-orange span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-orange nav.bottomPane { background-color: rgba(207, 121, 63, 0.02); }
-body div#neuron-theme-default-orange div#footnotes { border-top-color: rgb(207, 121, 63); }
-body div#neuron-theme-default-yellow .zettel-content h1 { background-color: rgb(102, 75, 0); }
-body div#neuron-theme-default-yellow span.zettel-link-container span.zettel-link a { color: rgb(230, 210, 153); }
-body div#neuron-theme-default-yellow span.zettel-link-container span.zettel-link a:hover { background-color: rgba(102, 75, 0, 0.1); }
-body div#neuron-theme-default-yellow span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-yellow nav.bottomPane { background-color: rgba(102, 75, 0, 0.02); }
-body div#neuron-theme-default-yellow div#footnotes { border-top-color: rgb(102, 75, 0); }
-body div#neuron-theme-default-olive .zettel-content h1 { background-color: rgb(165, 184, 46); }
-body div#neuron-theme-default-olive span.zettel-link-container span.zettel-link a { color: rgb(219, 230, 153); }
-body div#neuron-theme-default-olive span.zettel-link-container span.zettel-link a:hover { background-color: rgba(165, 184, 46, 0.1); }
-body div#neuron-theme-default-olive span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-olive nav.bottomPane { background-color: rgba(165, 184, 46, 0.02); }
-body div#neuron-theme-default-olive div#footnotes { border-top-color: rgb(165, 184, 46); }
-body div#neuron-theme-default-green .zettel-content h1 { background-color: rgb(44, 175, 75); }
-body div#neuron-theme-default-green span.zettel-link-container span.zettel-link a { color: rgb(153, 230, 171); }
-body div#neuron-theme-default-green span.zettel-link-container span.zettel-link a:hover { background-color: rgba(44, 175, 75, 0.1); }
-body div#neuron-theme-default-green span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-green nav.bottomPane { background-color: rgba(44, 175, 75, 0.02); }
-body div#neuron-theme-default-green div#footnotes { border-top-color: rgb(44, 175, 75); }
-body div#neuron-theme-default-blue .zettel-content h1 { background-color: rgb(48, 129, 192); }
-body div#neuron-theme-default-blue span.zettel-link-container span.zettel-link a { color: rgb(153, 196, 230); }
-body div#neuron-theme-default-blue span.zettel-link-container span.zettel-link a:hover { background-color: rgba(48, 129, 192, 0.1); }
-body div#neuron-theme-default-blue span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-blue nav.bottomPane { background-color: rgba(48, 129, 192, 0.02); }
-body div#neuron-theme-default-blue div#footnotes { border-top-color: rgb(48, 129, 192); }
-body div#neuron-theme-default-violet .zettel-content h1 { background-color: rgb(100, 54, 201); }
-body div#neuron-theme-default-violet span.zettel-link-container span.zettel-link a { color: rgb(178, 154, 228); }
-body div#neuron-theme-default-violet span.zettel-link-container span.zettel-link a:hover { background-color: rgba(100, 54, 201, 0.1); }
-body div#neuron-theme-default-violet span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-violet nav.bottomPane { background-color: rgba(100, 54, 201, 0.02); }
-body div#neuron-theme-default-violet div#footnotes { border-top-color: rgb(100, 54, 201); }
-body div#neuron-theme-default-purple .zettel-content h1 { background-color: rgb(162, 51, 199); }
-body div#neuron-theme-default-purple span.zettel-link-container span.zettel-link a { color: rgb(210, 154, 229); }
-body div#neuron-theme-default-purple span.zettel-link-container span.zettel-link a:hover { background-color: rgba(162, 51, 199, 0.1); }
-body div#neuron-theme-default-purple span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-purple nav.bottomPane { background-color: rgba(162, 51, 199, 0.02); }
-body div#neuron-theme-default-purple div#footnotes { border-top-color: rgb(162, 51, 199); }
-body div#neuron-theme-default-pink .zettel-content h1 { background-color: rgb(209, 71, 149); }
-body div#neuron-theme-default-pink span.zettel-link-container span.zettel-link a { color: rgb(230, 153, 196); }
-body div#neuron-theme-default-pink span.zettel-link-container span.zettel-link a:hover { background-color: rgba(209, 71, 149, 0.1); }
-body div#neuron-theme-default-pink span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-pink nav.bottomPane { background-color: rgba(209, 71, 149, 0.02); }
-body div#neuron-theme-default-pink div#footnotes { border-top-color: rgb(209, 71, 149); }
-body div#neuron-theme-default-grey .zettel-content h1 { background-color: rgb(117, 117, 117); }
-body div#neuron-theme-default-grey span.zettel-link-container span.zettel-link a { color: rgb(191, 191, 191); }
-body div#neuron-theme-default-grey span.zettel-link-container span.zettel-link a:hover { background-color: rgba(117, 117, 117, 0.1); }
-body div#neuron-theme-default-grey span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-grey nav.bottomPane { background-color: rgba(117, 117, 117, 0.02); }
-body div#neuron-theme-default-grey div#footnotes { border-top-color: rgb(117, 117, 117); }
-body div#neuron-theme-default-black .zettel-content h1 { background-color: rgb(28, 28, 28); }
-body div#neuron-theme-default-black span.zettel-link-container span.zettel-link a { color: rgb(191, 191, 191); }
-body div#neuron-theme-default-black span.zettel-link-container span.zettel-link a:hover { background-color: rgba(28, 28, 28, 0.1); }
-body div#neuron-theme-default-black span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
-body div#neuron-theme-default-black nav.bottomPane { background-color: rgba(28, 28, 28, 0.02); }
-body div#neuron-theme-default-black div#footnotes { border-top-color: rgb(28, 28, 28); }
+body div#zettel-container .zettel-content h1 { background-color: rgb(36, 143, 137); color: #fff; }
+body div#zettel-container span.zettel-link-container span.zettel-link a { color: rgb(153, 230, 226); }
+body div#zettel-container span.zettel-link-container span.zettel-link a:hover { background-color: rgba(36, 143, 137, 0.1); }
+body div#zettel-container span.zettel-link-container.errors span.zettel-link a:hover { cursor: not-allowed; text-decoration: none !important; }
+body div#zettel-container nav.bottomPane { background-color: rgba(36, 143, 137, 0.02); }
+body div#zettel-container div#footnotes { border-top-color: rgb(36, 143, 137); }
 body p { line-height: 150%; }
 body img { max-width: 100%; }
 body .deemphasized { font-size: 0.94999em; }
@@ -9257,14 +9222,14 @@ body div.zettel-view .zettel-content div#footnotes { margin-top: 4em; border-top
 body div.zettel-view .zettel-content aside.footnote-inline { width: 30%; padding-left: 15px; margin-left: 15px; float: right; background-color: rgb(69, 69, 69); }
 body div.zettel-view .zettel-content .overflows { overflow: auto; }
 body div.zettel-view .zettel-content code { margin: auto; font-size: 100%; }
-body div.zettel-view .zettel-content p code, li code, ol code { padding: 0.2em; background-color: rgb(33, 33, 33); }
+body div.zettel-view .zettel-content p code, li code, ol code { padding: 0.2em; background-color: rgb(33, 33, 33) !important; color: #e6db74; }
 body div.zettel-view .zettel-content pre { padding: 0.5em; overflow: auto; max-width: 100%; }
 body div.zettel-view .zettel-content div.pandoc-code { margin-left: auto; margin-right: auto; }
-body div.zettel-view .zettel-content div.pandoc-code pre { background-color: rgb(33, 33, 33); }
+body div.zettel-view .zettel-content div.pandoc-code pre { background-color: rgb(33, 33, 33) !important; }
 body div.zettel-view .zettel-content dl dt { font-weight: bold; }
-body div.zettel-view .zettel-content blockquote { background-color: rgb(31, 31, 31); border-left: 10px solid rgb(77, 77, 77); margin: 1.5em 0px; padding: 0.5em 10px; }
+body div.zettel-view .zettel-content blockquote { background-color: rgb(31, 31, 31) !important; border-left: 10px solid rgb(77, 77, 77) !important; margin: 1.5em 0px; padding: 0.5em 10px; }
 body div.zettel-view .zettel-content.raw { background-color: rgb(59, 59, 59); }
-body .ui.label.zettel-tag { color: rgb(191, 191, 191); }
+body .ui.label.zettel-tag { color: rgb(191, 191, 191) !important; }
 body .ui.label.zettel-tag a { color: rgb(191, 191, 191); }
 body nav.bottomPane ul.backlinks > li { padding-bottom: 0.4em; list-style-type: disc; }
 body nav.bottomPane ul.context-list > li { list-style-type: lower-roman; }
@@ -9283,12 +9248,48 @@ body span.zettel-link-container span.zettel-link a { font-weight: bold; text-dec
 
 pre > code.sourceCode { white-space: pre; position: relative; }pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }pre > code.sourceCode > span:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode > span { color: inherit; text-decoration: inherit; }div.sourceCode { margin: 1em 0px; }pre.sourceCode { margin: 0px; }@media screen {
   div.sourceCode { overflow: auto; }
-}@media print {
+}
+@media print {
   pre > code.sourceCode { white-space: pre-wrap; }
   pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}pre.numberSource code { counter-reset: source-line 0; }pre.numberSource code > span { position: relative; left: -4em; counter-increment: source-line 1; }pre.numberSource code > span > a:first-child::before { content: counter(source-line); position: relative; left: -1em; text-align: right; vertical-align: baseline; border: none; display: inline-block; user-select: none; padding: 0px 4px; width: 4em; color: rgb(191, 191, 191); }pre.numberSource { margin-left: 3em; border-left: 1px solid rgb(110, 110, 110); padding-left: 4px; }div.sourceCode { background-color: rgb(33, 33, 33); }@media screen {
+}
+pre.numberSource code { counter-reset: source-line 0; }
+pre.numberSource code > span { position: relative; left: -4em; counter-increment: source-line 1; }
+pre.numberSource code > span > a:first-child::before { content: counter(source-line); position: relative; left: -1em; text-align: right; vertical-align: baseline; border: none; display: inline-block; user-select: none; padding: 0px 4px; width: 4em; color: rgb(191, 191, 191); }
+pre.numberSource { margin-left: 3em; border-left: 1px solid rgb(110, 110, 110); padding-left: 4px; }
+div.sourceCode { background-color: rgb(33, 33, 33); }
+@media screen {
   pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}code span.al { color: rgb(230, 153, 153) !important; }code span.an { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }code span.at { color: rgb(230, 215, 153) !important; }code span.bn { color: rgb(153, 153, 230) !important; }code span.cf { color: rgb(153, 184, 230) !important; font-weight: bold !important; }code span.ch { color: rgb(190, 230, 153) !important; }code span.cn { color: rgb(191, 191, 191) !important; }code span.co { color: rgb(230, 200, 153) !important; font-style: italic !important; }code span.cv { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }code span.do { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }code span.dt { color: rgb(153, 184, 230) !important; }code span.dv { color: rgb(153, 153, 230) !important; }code span.er { color: rgb(230, 153, 153) !important; font-weight: bold !important; }code span.ex { }code span.fl { color: rgb(153, 153, 230) !important; }code span.fu { color: rgb(191, 191, 191) !important; }code span.im { }code span.in { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }code span.kw { color: rgb(153, 184, 230) !important; font-weight: bold !important; }code span.op { color: rgb(230, 187, 153) !important; font-weight: bold !important; }code span.ot { color: rgb(230, 200, 153) !important; }code span.pp { color: rgb(230, 200, 153) !important; font-style: italic !important; }code span.sc { color: rgb(191, 191, 191) !important; }code span.ss { color: rgb(190, 230, 153) !important; }code span.st { color: rgb(190, 230, 153) !important; }code span.va { color: rgb(191, 191, 191) !important; }code span.vs { color: rgb(190, 230, 153) !important; }code span.wa { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+}
+code span.al { color: rgb(230, 153, 153) !important; }
+code span.an { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+code span.at { color: rgb(230, 215, 153) !important; }
+code span.bn { color: rgb(153, 153, 230) !important; }
+code span.cf { color: rgb(153, 184, 230) !important; font-weight: bold !important; }
+code span.ch { color: rgb(190, 230, 153) !important; }
+code span.cn { color: rgb(191, 191, 191) !important; }
+code span.co { color: rgb(230, 200, 153) !important; font-style: italic !important; }
+code span.cv { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+code span.do { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+code span.dt { color: rgb(153, 184, 230) !important; }
+code span.dv { color: rgb(153, 153, 230) !important; }
+code span.er { color: rgb(230, 153, 153) !important; font-weight: bold !important; }
+code span.ex { }
+code span.fl { color: rgb(153, 153, 230) !important; }
+code span.fu { color: rgb(191, 191, 191) !important; }
+code span.im { }
+code span.in { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+code span.kw { color: rgb(153, 184, 230) !important; font-weight: bold !important; }
+code span.op { color: rgb(230, 187, 153) !important; font-weight: bold !important; }
+code span.ot { color: rgb(230, 200, 153) !important; }
+code span.pp { color: rgb(230, 200, 153) !important; font-style: italic !important; }
+code span.sc { color: rgb(191, 191, 191) !important; }
+code span.ss { color: rgb(190, 230, 153) !important; }
+code span.st { color: rgb(190, 230, 153) !important; }
+code span.va { color: rgb(191, 191, 191) !important; }
+code span.vs { color: rgb(190, 230, 153) !important; }
+code span.wa { color: rgb(230, 200, 153) !important; font-weight: bold !important; font-style: italic !important; }
+
 
 .CtxtMenu_InfoClose { top: 0.2em; right: 0.2em; }.CtxtMenu_InfoContent { overflow: auto; text-align: left; font-size: 80%; padding: 0.4em 0.6em; border: 1px inset; margin: 1em 0px; max-height: 20em; max-width: 30em; background-color: rgb(43, 43, 43); white-space: normal; }.CtxtMenu_Info.CtxtMenu_MousePost { outline: none; }.CtxtMenu_Info { position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: rgb(59, 59, 59); color: rgb(191, 191, 191); cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box-shadow: rgb(128, 128, 128) 0px 10px 20px; }
 
