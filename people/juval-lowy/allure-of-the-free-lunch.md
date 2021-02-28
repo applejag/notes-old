@@ -10,7 +10,7 @@ This is a common phrase told by #[[juval-lowy]]. In other words: *"There is no s
 thing as a free lunch"*, or *"You cannot add value without sweating"* 
 (J. Löwy, January 27, 2021).
 
-> "Nothing worse than responding 'We will fix it. No sweat!'"
+> "Nothing worse than responding *'We will fix it. No sweat!'*"
 
 ## First law of thermodynamics
 
