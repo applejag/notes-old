@@ -31,7 +31,7 @@ hr { box-sizing: content-box; height: 0px; overflow: visible; }
 pre { font-family: monospace, monospace; font-size: 1em; }
 a { background-color: transparent; }
 abbr[title] { border-bottom: none; text-decoration: underline dotted; }
-b, strong { font-weight: bolder; }
+b, strong { font-weight: bolder; color: #cacaca; }
 code, kbd, samp { font-family: monospace, monospace; font-size: 1em; }
 small { font-size: 80%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
