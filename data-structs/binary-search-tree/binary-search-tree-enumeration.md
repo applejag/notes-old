@@ -95,8 +95,9 @@ Ordering for enumeration goes: `.Left` -> `.Right` -> `.Value`
 7 root --------------- .Value => 'D'
 ```
 
-Useful when deleting/clearing up a tree or a branch. You can safely remove each
-node in this order without needing to move any nodes around in the process.
+Useful when deleting/clearing up a tree or a branch. Deleting in this order
+will ensure you are always deleting leaf nodes, and will therefore save some
+performance on not needing to move nodes around during deletion.
 
 ## Reference
 
