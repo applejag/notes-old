@@ -9,10 +9,10 @@ Commonly shortened as: BST
 Data structure is made up of nodes. Usually looks something like this:
 
 ```fsharp
-type bstNode<T> =
-  { Value: T
-    Left: bstNode<T> option
-    Right: bstNode<T> option }
+type bstNode<'T> =
+  { Value: 'T
+    Left: bstNode<'T> option
+    Right: bstNode<'T> option }
 ```
 
 ## Rules
