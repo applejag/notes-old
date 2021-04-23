@@ -7,10 +7,25 @@ date: 2021-04-22T20:04
 The actions you need to take when removing a node depends on the state of the
 soon-to-be-removed node.
 
+```fsharp
+let removeNode node root =
+    match node with
+    | { Left = None; Right = None } -> removeLeaf node root
+    | { Left = None } | { Right = None } -> removeParentOf1 node root
+    | _ -> removeParentOf2 node root
+```
+
 ## Leaf node
 
 Just remove it. The tree will not be affected. This is why the "post-ordering"
 enumeration is so great, as explained in [[binary-search-tree-enumeration]].
+
+```fsharp
+let removeLeaf node root =
+    // recursive descent
+    // rebuild all parent nodes of target node all the way up to root
+    // in a balanced tree, and on average, this would take O(log n) operations
+```
 
 ```{.mermaid}
 graph TD
@@ -33,6 +48,14 @@ graph TD
 ## Parent of 1
 
 You promote the single child to where the removed parent once was.
+
+```fsharp
+let removeParentOf1 node root =
+    // recursive descent down to parent of node
+    // rebuild all nodes but with child taken place of target node
+    // all the way up to the root node
+    // in a balanced tree, and on average, this would take O(log n) operations
+```
 
 ```{.mermaid}
 graph TD
@@ -61,19 +84,29 @@ defined for a [[binary-search-tree]].
 
 The algorithm goes: Promote the *leftmost node* of the *right node*.
 
+- If the right node (`F`) does not have a left node, then promote that node
+  (`F`) instead.
+
+- The right node's right nodes (`G`) are completely ignored.
+
+- The promoted child is guaranteed to not have a left node, as we take the
+  leftmost node.
+
+- The promoted child has itself removed from the old parent's right branch.
+
 ```fsharp
 let leftmost node =
     match node.Left with
     | Some child -> leftmost child
     | None -> node
-    
-let childToPromote node =
-    match node.Right with
-    | Some child -> Some (leftmost child)
-    | None -> None
-    
-let root = ...
-let newRoot = { root with Left = root.Left; Right = childToPromote root }
+
+let removeParentOf2 node root =
+    let childToPromote = oldNode |> Option.map leftmost
+    let newRightBranch = root.Right |> Option.map (removeLeaf childToPromote)
+
+    { childToPromote with
+      Left = oldRoot.Left
+      Right = newRightBranch  }
 ```
 
 ```{.mermaid}
