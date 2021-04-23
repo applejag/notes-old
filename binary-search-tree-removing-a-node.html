@@ -18,7 +18,14 @@
   }))
 </script>
 <!-- End of head.html -->
-<!--replace-end-7--><!--replace-end-4--><!--replace-end-1--></head><body><div class="ui fluid container universe"><!--replace-start-2--><!--replace-start-3--><!--replace-start-6--><nav class="flipped tree deemphasized" id="zettel-uptree" style="transform-origin: 50%"><ul class="root"><li><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree">Binary search tree</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link"><a href="data-structs">data-structs/</a></span></span></div></li></ul></li></ul></li></ul></nav><div class="ui text container" id="zettel-container" style="position: relative"><div class="zettel-view"><article class="ui raised attached segment zettel-content"><div class="pandoc"><h1 id="title-h1">Binary search tree - Removing a node</h1><p>The actions you need to take when removing a node depends on the state of the soon-to-be-removed node.</p><h2 id="leaf-node">Leaf node</h2><p>Just remove it. The tree will not be affected. This is why the “post-ordering” enumeration is so great, as explained in <span class="zettel-link-container cf"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree-enumeration">Binary search tree enumeration</a></span></span>.</p><pre><code class="mermaid language-mermaid">graph TD
+<!--replace-end-7--><!--replace-end-4--><!--replace-end-1--></head><body><div class="ui fluid container universe"><!--replace-start-2--><!--replace-start-3--><!--replace-start-6--><nav class="flipped tree deemphasized" id="zettel-uptree" style="transform-origin: 50%"><ul class="root"><li><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree">Binary search tree</a></span></span></div><ul><li><div class="forest-link"><span class="zettel-link-container"><span class="zettel-link"><a href="data-structs">data-structs/</a></span></span></div></li></ul></li></ul></li></ul></nav><div class="ui text container" id="zettel-container" style="position: relative"><div class="zettel-view"><article class="ui raised attached segment zettel-content"><div class="pandoc"><h1 id="title-h1">Binary search tree - Removing a node</h1><p>The actions you need to take when removing a node depends on the state of the soon-to-be-removed node.</p><pre><code class="fsharp language-fsharp">let removeNode node root =
+    match node with
+    | { Left = None; Right = None } -&gt; removeLeaf node root
+    | { Left = None } | { Right = None } -&gt; removeParentOf1 node root
+    | _ -&gt; removeParentOf2 node root</code></pre><h2 id="leaf-node">Leaf node</h2><p>Just remove it. The tree will not be affected. This is why the “post-ordering” enumeration is so great, as explained in <span class="zettel-link-container cf"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree-enumeration">Binary search tree enumeration</a></span></span>.</p><pre><code class="fsharp language-fsharp">let removeLeaf node root =
+    // recursive descent
+    // rebuild all parent nodes of target node all the way up to root
+    // in a balanced tree, and on average, this would take O(log n) operations</code></pre><pre><code class="mermaid language-mermaid">graph TD
     subgraph after C removed
     D2[D]==&gt;B2[B]
     D2[D]==&gt;F2[F]
@@ -32,7 +39,11 @@
     B1[B]==&gt;C1((C))
     F1[F]==&gt;E1[E]
     F1[F]==&gt;G1[G]
-    end</code></pre><h2 id="parent-of-1">Parent of 1</h2><p>You promote the single child to where the removed parent once was.</p><pre><code class="mermaid language-mermaid">graph TD
+    end</code></pre><h2 id="parent-of-1">Parent of 1</h2><p>You promote the single child to where the removed parent once was.</p><pre><code class="fsharp language-fsharp">let removeParentOf1 node root =
+    // recursive descent down to parent of node
+    // rebuild all nodes but with child taken place of target node
+    // all the way up to the root node
+    // in a balanced tree, and on average, this would take O(log n) operations</code></pre><pre><code class="mermaid language-mermaid">graph TD
     subgraph after B removed
     D2[D]==&gt;C2[C]
     D2[D]==&gt;F2[F]
@@ -48,18 +59,18 @@
     F1[F]==&gt;G1[G]
     
     C1-.-&gt;B1
-    end</code></pre><h2 id="parent-of-2">Parent of 2</h2><p>Here it gets a little more complicated as we need to conform to the rules defined for a <span class="zettel-link-container cf"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree">Binary search tree</a></span></span>.</p><p>The algorithm goes: Promote the <em>leftmost node</em> of the <em>right node</em>.</p><pre><code class="fsharp language-fsharp">let leftmost node =
+    end</code></pre><h2 id="parent-of-2">Parent of 2</h2><p>Here it gets a little more complicated as we need to conform to the rules defined for a <span class="zettel-link-container cf"><span class="zettel-link" title="2021-04-22T20:04"><a href="binary-search-tree">Binary search tree</a></span></span>.</p><p>The algorithm goes: Promote the <em>leftmost node</em> of the <em>right node</em>.</p><ul><li><p>If the right node (<code>F</code>) does not have a left node, then promote that node (<code>F</code>) instead.</p></li><li><p>The right node’s right nodes (<code>G</code>) are completely ignored.</p></li><li><p>The promoted child is guaranteed to not have a left node, as we take the leftmost node.</p></li><li><p>The promoted child has itself removed from the old parent’s right branch.</p></li></ul><pre><code class="fsharp language-fsharp">let leftmost node =
     match node.Left with
     | Some child -&gt; leftmost child
     | None -&gt; node
-    
-let childToPromote node =
-    match node.Right with
-    | Some child -&gt; Some (leftmost child)
-    | None -&gt; None
-    
-let root = ...
-let newRoot = { root with Left = root.Left; Right = childToPromote root }</code></pre><pre><code class="mermaid language-mermaid">graph TD
+
+let removeParentOf2 node root =
+    let childToPromote = oldNode |&gt; Option.map leftmost
+    let newRightBranch = root.Right |&gt; Option.map (removeLeaf childToPromote)
+
+    { childToPromote with
+      Left = oldRoot.Left
+      Right = newRightBranch  }</code></pre><pre><code class="mermaid language-mermaid">graph TD
     subgraph after D removed
     E2[E]==&gt;B2[B]
     E2[E]==&gt;F2[F]
