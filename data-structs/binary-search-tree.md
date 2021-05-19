@@ -20,8 +20,8 @@ type bstNode<'T> =
 ## Rules
 
 - Every node can have up to 2 children. No more.
-- Every node in the `.Left` branch has a lower (or equal) value than `.Value`
-- Every node in the `.Right` branch has a higher value than `.Value`
+- Every node in the `.Left` branch has a lower value than `.Value`
+- Every node in the `.Right` branch has a higher (or equal) value than `.Value`
 - Every node is immutable
 
 ## Benefits
