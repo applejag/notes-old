@@ -9,7 +9,7 @@ dirtree:
 # Functional decomposition
 
 Designing an architecture by inspecting the required functions. Functions comes
-first in functional decomposition. This is discussed in #[[juval-lowy]]'s
+first in functional decomposition. This is discussed in [[juval-lowy]]'s
 course on #[[righting-software]] about how **not** to design software.
 
 It's the easiest way to build software and therefore also the most common, but
