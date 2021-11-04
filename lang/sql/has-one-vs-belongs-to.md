@@ -11,7 +11,7 @@ Both regards 1:1 (one to one) relations, but implies different behaviour
 
 ## Sample models
 
-A user can have 1 calender, and 1 calender can only be used by 1 user. Using #[[go]]
+A user can have 1 calender, and 1 calender can only be used by 1 user. Using [[go]]
  as sample language, and behaviour may be specific to GORM.
 
 ```go
