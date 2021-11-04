@@ -1,6 +1,6 @@
 ---
 date: 2021-01-24T12:31
-tags: 
+tags:
   - go/best practices in golang
   - go/writing idiomatic golang code
   - go/create a lasting go project
@@ -35,15 +35,15 @@ consumer/customer/user of your project.
   - [G11: Inconsistency](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/general/g11-inconsistency.html)
   - [G24: Follow Standard Conventions](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/general/g24-follow-standard-conventions.html)
 
-- Inviting to contributors by [[documenting-go-packages]]# and keeping the code
+- Inviting to contributors by [[documenting-go-packages]] and keeping the code
   clean and clutter free.
-  
+
   - [C2: Obsolete Comment](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/comments/c2-obsolete-comment.html)
   - [F4: Dead Function](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/functions/f4-dead-function.html)
-  
+
 - Easy to run the source code. If it's a convoluted procedure to set up your
   development environment, noone, not even you, will want to do it.
-  
+
   - [E1: Build Requires More Than One Step](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/environment/e1-build-requires-more-than-one-step.html)
   - [E2: Tests Require More Than One Step](https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/environment/e2-tests-require-more-than-one-step.html)
 
@@ -53,7 +53,7 @@ The classical ["Unix philosophy"](https://en.wikipedia.org/wiki/Unix_philosophy)
 that is echoed all over the place and phrased in different ways. The concept is
 also commonly referred to as the *Single Responsibility Principle (SRP)*[^srp]
 or the *Common Closure Principle (CCP)*[^ccp], and in turn relies on that you
-design the system by [[volatility-decomposition]]#.
+design the system by [[volatility-decomposition]].
 
 The idea is that your package should have a goal to solve, and it should not try
 to touch anything outside its own scope. The term "bloat" often comes up when
@@ -90,10 +90,10 @@ Other examples:
 
 - Supporting multiple database providers, choosing between: "in memory", MySQL,
   MsSQL, PostgreSQL, etc.
-  
+
 - Supporting sending notifications via email, sms, as arguments to an arbitrary
   command, etc.
-  
+
 - Hosting the service inside Docker, Kubernetes, on "raw-metal", etc.
 
 - Reading configuration through environment variables (`os.LookupEnv`), config
@@ -120,7 +120,7 @@ your library consumers can switch out behaviors as they need.
 
 - Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*
   (1st ed.). Pearson.
-  
+
   - *Cited via* Metcalfe, D. (2019, January 22). *Clean Code: Smells and
     Heuristics.*
     <https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/>
