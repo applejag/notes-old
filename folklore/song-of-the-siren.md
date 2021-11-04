@@ -1,7 +1,5 @@
 ---
 date: 2021-02-15T19:50
-tags: 
-  - stub
 ---
 
 # Song of the siren
@@ -18,7 +16,7 @@ devour them alive like sharks.
 You see something that is so beautiful that you just sprint towards it, but once
 you embrace it you are devoured by it.
 
-Sample applications of this is [[overdoing-volatility-decomposition]]#.
+Sample applications of this is [[overdoing-volatility-decomposition]].
 
 ## References
 
