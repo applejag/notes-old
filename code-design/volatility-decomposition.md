@@ -9,7 +9,7 @@ dirtree:
 
 # Volatility decomposition
 
-There are many ways to design software. According to the author #[[juval-lowy]],
+There are many ways to design software. According to the author [[juval-lowy]],
 using volatility-based decomposition is the perferred strategy, as he talks about
 in his series of #[[righting-software]].
 
