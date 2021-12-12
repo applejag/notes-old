@@ -5,6 +5,12 @@ em, i {
   font-size: 120%;
 }
 
+/* Custom links */
+
+a {
+  text-decoration: underline !important;
+}
+
 /* https://nighteye.app/dark-css-generator/ */
 a { color: rgb(140, 140, 250); }
 ::-webkit-scrollbar-track-piece { background-color: rgba(255, 255, 255, 0.2) !important; }
