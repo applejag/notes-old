@@ -116,3 +116,4 @@ string FormatVersion(int major, int minor, int build, int revision)
 ## References
 
 - <https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/>
+- <https://github.com/dotnet/runtime/blob/v6.0.0/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/DefaultInterpolatedStringHandler.cs>
