@@ -6,11 +6,13 @@ dirtree:
 
 # Wiki of Kalle
 
+> 🚨 This page is deprecated in favor of <https://notes.jillrjr.tech>, with source at <https://github.com/jilleJr/notes>
+
 This is my personal wiki that I put an empasis on trying to follow the
 [[zettelkasten]]# methodology.
 
 The source for this zettelkasten is stored as open source on GitHub at
-<https://github.com/jilleJr/wiki>
+<https://github.com/jilleJr/notes-old>
 
 ## Useful when writing zettels
 
