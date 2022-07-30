@@ -6,7 +6,7 @@ dirtree:
 
 # Wiki of Kalle
 
-> 🚨 This page is deprecated in favor of <https://notes.jillrjr.tech>, with source at <https://github.com/jilleJr/notes>
+> 🚨 This page is deprecated in favor of <https://notes.jillejr.tech>, with source at <https://github.com/jilleJr/notes>
 
 This is my personal wiki that I put an empasis on trying to follow the
 [[zettelkasten]]# methodology.
